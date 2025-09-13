@@ -12,9 +12,9 @@ id_pattern = re.compile(r'^.\d+$')
 # 🔹 BOT INFORMATION
 # ============================================================
 SESSION = environ.get('SESSION', 'MyselfNeon')
-API_ID = int(environ.get('API_ID', '25451030'))
-API_HASH = environ.get('API_HASH', '9810f1e7387fc060f76b706844364819')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8294520607:AAEbau2CsBhR35awASFml-XhOy1rWP3Ef34")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # ============================================================
@@ -37,7 +37,7 @@ PICS = (
 # 🔹 ADMINS & USERS
 # ============================================================
 ADMINS = [int(admin) if id_pattern.search(admin) else admin
-          for admin in environ.get('ADMINS', '8210377618').split()]  # Multiple IDs separated by space
+          for admin in environ.get('ADMINS', '841851780 8210377618').split()]  # Multiple IDs separated by space
 
 auth_users = [int(user) if id_pattern.search(user) else user
               for user in environ.get('AUTH_USERS', '').split()]  # Multiple IDs separated by space
@@ -48,11 +48,11 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # ============================================================
 # 🔹 CHANNELS AND GROUPS
 # ============================================================
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003092851292'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch
-            for ch in environ.get('CHANNELS', '-1003080792631').split()]
+            for ch in environ.get('CHANNELS', '').split()]
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database
 
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False))  # True → request to join FSUB
@@ -84,16 +84,16 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch
 # ============================================================
 # 🔹 DATABASE
 # ============================================================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nothingsunfav8_db_user:cZjzhPcqH6dIOMrz@cluster0.xthac8f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'neoncollection')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False))
 
 # Separate DBs if MULTIPLE_DATABASE = True
-O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://CYBERTG:CYBERTG@cybertg.sti1hiq.mongodb.net/?retryWrites=true&w=majority&appName=CyberTG")  # This Db Is For Other Data Store
-F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://CYBER:CYBER@cyber.1vu1ket.mongodb.net/?retryWrites=true&w=majority&appName=Cyber")  # This Db Is For File Data Store
-S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://nothingsunfav8_db_user:cZjzhPcqH6dIOMrz@cluster0.xthac8f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # This Db is for File Data Store When First Db Is Going To Be Full
+O_DB_URI = environ.get('O_DB_URI', "")  # This Db Is For Other Data Store
+F_DB_URI = environ.get('F_DB_URI', "")  # This Db Is For File Data Store
+S_DB_URI = environ.get('S_DB_URI', "")  # This Db is for File Data Store When First Db Is Going To Be Full
 
 if not MULTIPLE_DATABASE:
     USER_DB_URI = OTHER_DB_URI = FILE_DB_URI = SEC_FILE_DB_URI = DATABASE_URI
