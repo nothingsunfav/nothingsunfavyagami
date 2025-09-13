@@ -14,7 +14,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'MyselfNeon')
 API_ID = int(environ.get('API_ID', '25451030'))
 API_HASH = environ.get('API_HASH', '9810f1e7387fc060f76b706844364819')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8450345150:AAGrhItkZLhbp2Yd7Y3gWjSacK2bz95_950")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8294520607:AAEbau2CsBhR35awASFml-XhOy1rWP3Ef34")
 
 
 # ============================================================
@@ -48,22 +48,22 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # ============================================================
 # 🔹 CHANNELS AND GROUPS
 # ============================================================
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002981396715'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003092851292'))
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch
-            for ch in environ.get('CHANNELS', '-1003035630937').split()]
+            for ch in environ.get('CHANNELS', '-1003080792631').split()]
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database
 
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False))  # True → request to join FSUB
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False))                # Retry button for FSUB
 
 # Force Subscribe Channel
-auth_channel = environ.get('AUTH_CHANNEL', '-1002909850494')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # File request channel
-reqst_channel = environ.get('REQST_CHANNEL', '-1003035630937')
+reqst_channel = environ.get('REQST_CHANNEL', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # Index request channel
@@ -74,11 +74,11 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # File store channel (/batch command)
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002956401337')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 
 # Delete channel(s)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch
-                   for dch in environ.get('DELETE_CHANNELS', '-1002924673878').split()]
+                   for dch in environ.get('DELETE_CHANNELS', '').split()]
 
 
 # ============================================================
@@ -261,6 +261,7 @@ REACTIONS = [
 # Dont remove Credits
 # Developer Telegram @MyselfNeon
 # Update channel - @NeonFiles
+
 
 
 
