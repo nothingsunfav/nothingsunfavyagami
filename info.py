@@ -88,7 +88,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'neoncollection')
 
-MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False))
+MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', true))
 
 # Separate DBs if MULTIPLE_DATABASE = True
 O_DB_URI = environ.get('O_DB_URI', "")  # This Db Is For Other Data Store
@@ -157,7 +157,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 IMDB = bool(environ.get('IMDB', False))
 MULTI_FFILTER = bool(environ.get('AUTO_FFILTER', True))
 AUTO_DELETE = bool(environ.get('AUTO_DELETE', True))
-LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", False))
+LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", true))
 SPELL_CHECK_REPLY = bool(environ.get("SPELL_CHECK_REPLY", True))
 MELCOW_NEW_USERS = bool(environ.get('MELCOW_NEW_USERS', True))
 PROTECT_CONTENT = bool(environ.get('PROTECT_CONTENT', False))
@@ -196,7 +196,7 @@ TUTORIAL = environ.get('TUTORIAL', '')
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Powered by @NeonFiles ❤️✨')
+MSG_ALRT = environ.get('MSG_ALRT', 'Powered by https://t.me/yagamimoviez ❤️✨')
 
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
@@ -251,7 +251,7 @@ AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False))  # Set True or
 # 🔹 START COMMAND REACTIONS
 # ============================================================
 REACTIONS = [
-    "🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩",
+    "🤝", "😇", "🤗", "😍", "👍", "⚡", "🫶", "🥰", "🤩",
     "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡",
     "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
 # Don't add unsupported emojis because Telegram reactions have limits
@@ -259,8 +259,9 @@ REACTIONS = [
 
 
 # Dont remove Credits
-# Developer Telegram @MyselfNeon
-# Update channel - @NeonFiles
+# Developer Telegram @Leoyagamihere
+# Update channel - https://t.me/yagamimoviez
+
 
 
 
