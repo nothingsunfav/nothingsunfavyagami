@@ -72,7 +72,7 @@ Buy paid plan by - /plan
 2. This Bot supports buttons with any telegram media type
 3. Buttons should be properly parsed as Markdown format</i></b>
 <blockquote><b><i>‣ URL Buttons</i></b></blockquote>
-<b><i>[Button Text](buttonurl:https://t.me/NeonFiles)</i></b>
+<b><i>[Button Text](buttonurl:https://t.me/yagamimoviez)</i></b>
 <blockquote><b><i>‣ Alert Buttons</i></b></blockquote>
 <b><i>[Button Text](buttonalert:This is an Alert Message)</i></b>"""
 
