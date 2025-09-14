@@ -24,9 +24,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 PICS = (
     environ.get(
         'PICS',
-        'https://files.catbox.moe/ybg6gw.jpg '
-        'https://files.catbox.moe/b5a3dz.jpg '
-        'https://files.catbox.moe/n0xw7h.jpg '
+        'https://files.catbox.moe/788h0c.jpg '
+        'https://files.catbox.moe/feb9hv.jpg '
+        'https://files.catbox.moe/gnlb1k.jpg '
         'https://files.catbox.moe/fhexii.jpg '
         'https://files.catbox.moe/v7w8co.jpg '
         'https://files.catbox.moe/r946bu.jpg'
@@ -261,6 +261,7 @@ REACTIONS = [
 # Dont remove Credits
 # Developer Telegram @MyselfNeon
 # Update channel - @NeonFiles
+
 
 
 
