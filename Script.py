@@ -426,7 +426,7 @@ NOTE:
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇssᴀɢᴇ</b>"""
 
     RESTART_TXT = """
-**🛜 __<a href="t.me/ZeroFilterBot">Auto Filter</a> Bot Restarted !!__**
+**🛜 __<a href="t.me/Yag_ami_robot">Lᴇᴏ Yᴀɢᴀᴍɪ</a> Bot Restarted !!__**
 
 **📅 __Dᴀᴛᴇ : {}__**
 **⏰ __Tɪᴍᴇ : {}__**
