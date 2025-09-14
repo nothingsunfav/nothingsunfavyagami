@@ -27,9 +27,9 @@ PICS = (
         'https://files.catbox.moe/788h0c.jpg '
         'https://files.catbox.moe/feb9hv.jpg '
         'https://files.catbox.moe/gnlb1k.jpg '
-        'https://files.catbox.moe/fhexii.jpg '
-        'https://files.catbox.moe/v7w8co.jpg '
-        'https://files.catbox.moe/r946bu.jpg'
+        'https://files.catbox.moe/06ioff.jpg '
+        'https://files.catbox.moe/aof0p0.jpg '
+        'https://files.catbox.moe/jwzdkk.jpg'
     )
 ).split()
 
@@ -261,6 +261,7 @@ REACTIONS = [
 # Dont remove Credits
 # Developer Telegram @MyselfNeon
 # Update channel - @NeonFiles
+
 
 
 
