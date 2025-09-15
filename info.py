@@ -88,7 +88,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'neoncollection')
 
-MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', true))
+MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', false))
 
 # Separate DBs if MULTIPLE_DATABASE = True
 O_DB_URI = environ.get('O_DB_URI', "")  # This Db Is For Other Data Store
@@ -261,6 +261,7 @@ REACTIONS = [
 # Dont remove Credits
 # Developer Telegram @Leoyagamihere
 # Update channel - https://t.me/yagamimoviez
+
 
 
 
