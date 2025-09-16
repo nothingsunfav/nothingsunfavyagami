@@ -37,7 +37,7 @@ PICS = (
 # 🔹 ADMINS & USERS
 # ============================================================
 ADMINS = [int(admin) if id_pattern.search(admin) else admin
-          for admin in environ.get('ADMINS', '841851780 8210377618').split()]  # Multiple IDs separated by space
+          for admin in environ.get('ADMINS', '8173746928').split()]  # Multiple IDs separated by space
 
 auth_users = [int(user) if id_pattern.search(user) else user
               for user in environ.get('AUTH_USERS', '').split()]  # Multiple IDs separated by space
@@ -261,6 +261,7 @@ REACTIONS = [
 # Dont remove Credits
 # Developer Telegram @Leoyagamihere
 # Update channel - https://t.me/yagamimoviez
+
 
 
 
