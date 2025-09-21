@@ -17,7 +17,7 @@ START_BALANCE_ADMIN = 50000
 # -----------------------
 # MONGODB SETUP
 # -----------------------
-DATABASE_URI = os.environ.get("DATABASE_URI")
+DATABASE_URI = os.environ.get("mongodb+srv://nothingsunfav8_db_user:cZjzhPcqH6dIOMrz@cluster0.xthac8f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 if not DATABASE_URI:
     raise ValueError("DATABASE_URI environment variable is not set!")
 
