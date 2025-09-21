@@ -135,9 +135,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # ============================================================
 # 🔹 LINKS
 # ============================================================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+o1s-8MppL2syYTI9')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/djdjsnak')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Leoyagamihere') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/yagamimoviez')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/yagamimoviez')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@Leoyagamihere') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'http//t.me/Leoyagamihere')
 
 
@@ -191,7 +191,7 @@ TUTORIAL = environ.get('TUTORIAL', '')
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Powered by @NeonFiles ❤️✨')
+MSG_ALRT = environ.get('MSG_ALRT', 'Powered by @leoyagamihere⚡📈')
 
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
@@ -254,8 +254,9 @@ REACTIONS = [
 
 
 # Dont remove Credits
-# Developer Telegram @MyselfNeon
-# Update channel - @NeonFiles
+# Developer Telegram @yagamimoviez
+# Update channel - @Leoyagsmihere
+
 
 
 
