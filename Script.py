@@ -25,7 +25,7 @@ Hᴇʀᴇ Aʀᴇ Mʏ Usᴇғᴜʟ Fᴇᴀᴛᴜʀᴇs</i> 🤗</b></blockquote>"
     CLONE_ABOUT_TXT = """<b><i><blockquote>‣ 📝 My Details</blockquote>
     
 ⪼ My Name : {}
-⪼ My Best Friend : <a href='tg://settings'>This Sweetie 🤌❤️</a> 
+⪼ My Best Friend : <a href='tg://settings'>This Sweetie 🤌❤️‍🩹</a> 
 ⪼ Cloned From : <a href=https://t.me/{}>{}</a>
 ⪼ Library : <a href='https://docs.pyrogram.org/'>Pyrogram</a> 
 ⪼ Language : <a href='https://www.python.org/download/releases/3.0/'>Python 3</a> 
@@ -101,7 +101,7 @@ Buy paid plan by - /plan
 
     EXTRAMOD_TXT = """<blockquote><i><b>‣ Extra Modules</b></i></blockquote>
 <blockquote><b><i>Maintained by <a href={}>NeonAnurag 💖</a></i></b> 
-<b><i>Powered By @NeonFiles</i> 🔥</b></blockquote>
+<b><i>Powered By @leoyagami</i> 🔥</b></blockquote>
   
 <i>/id - <b>Get ID of specified User</b> 
 /info  - <b>Get information about a user</b>
@@ -703,5 +703,5 @@ Get your text share url.
 
 
 # Dont remove Credits
-# Developer Telegram @MyselfNeon
-# Update channel - @NeonFiles
+# Developer Telegram @leoyagamihere
+# Update channel - @yagamimoviez
