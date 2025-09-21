@@ -12,8 +12,8 @@ id_pattern = re.compile(r'^.\d+$')
 # 🔹 BOT INFORMATION
 # ============================================================
 SESSION = environ.get('SESSION', 'MyselfNeon')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '25451030'))
+API_HASH = environ.get('API_HASH', '9810f1e7387fc060f76b706844364819')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
@@ -256,6 +256,7 @@ REACTIONS = [
 # Dont remove Credits
 # Developer Telegram @MyselfNeon
 # Update channel - @NeonFiles
+
 
 
 
